@@ -1,0 +1,15 @@
+root = true
+
+[*]
+indent_style = tab
+end_of_line = crlf
+insert_final_newline = true
+charset = utf-8
+trim_trailing_whitespace = true
+
+[*.{js,ts,scss,html}]
+tab_width = 2
+
+
+[*.md]
+trim_trailing_whitespace = false
